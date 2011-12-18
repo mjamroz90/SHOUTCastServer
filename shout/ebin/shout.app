@@ -1,0 +1,20 @@
+{application, shout,
+ [{description, "SHOUTCAST Server"},
+  {vsn, "0.1.0"},
+  {modules, [song_server,
+             connection_server,
+			 gui_server,
+			 cache_server,
+             conn_sup,
+             shout_sup,
+			 event_sup,
+			 gui_cache_sup,
+             shout_app,
+			 shout_event,
+			 shout_event_logger,
+			 shout_cache			 
+             ]},
+  {registered, [song_server,gui_server,cache_server,shout_sup,conn_sup,event_sup,gui_cache_sup]},
+  {applications, [kernel, stdlib, sasl]},
+  {mod, {shout_app, []}}
+ ]}.

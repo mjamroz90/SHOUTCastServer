@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<resource version="2.3.0.1">
+	<object class="wxFrame" name="mainFrame">
+		<size>1000,600</size>
+		<pos>200,200</pos>
+		<object class="wxListBox" name="listBox">
+			<size>200,300</size>
+			<pos>475,50</pos>
+			<style>wxLB_HSCROLL</style>
+		</object>
+		<object class="wxListBox" name="itemBox">
+			<size>200,300</size>
+			<pos>750,50</pos>
+			<style>wxLB_HSCROLL</style>
+		</object>
+		<object class="wxTextCtrl" name="logScreen">
+			<size>300,200</size>
+			<pos>50,100</pos>
+			<style>wxTE_MULTILINE</style>
+		</object>
+		<object class="wxStaticBox" name="box1">
+			<pos>15,0</pos>
+			<size>400,400</size>
+		</object>
+		<object class="wxStaticBox" name="box2">
+			<pos>450,0</pos>
+			<size>250,550</size>
+		</object>
+		<object class="wxStaticBox" name="box3">
+			<pos>725,0</pos>
+			<size>250,550</size>
+		</object>		
+		<object class="wxToggleButton" name="addButton">
+			<pos>475,500</pos>					
+			<size>50,25</size>
+			<label>+</label>
+		</object>
+		<object class="wxToggleButton" name="deleteButton">
+			<pos>550,500</pos>					
+			<size>50,25</size>
+			<label>-</label>
+		</object>
+		<object class="wxToggleButton" name="startButton">
+			<pos>150,350</pos>					
+			<size>50,25</size>
+			<label>Start</label>
+		</object>
+		<object class="wxToggleButton" name="stopButton">
+			<pos>250,350</pos>					
+			<size>50,25</size>
+			<label>Stop</label>
+		</object>
+		<object class="wxToggleButton" name="saveButton">
+			<pos>625,500</pos>					
+			<size>50,25</size>
+			<label>Save</label>
+		</object>
+		<object class="wxToggleButton" name="addItemButton">
+			<pos>775,500</pos>					
+			<size>50,25</size>
+			<label>+</label>
+		</object>
+		<object class="wxToggleButton" name="deleteItemButton">
+			<pos>850,500</pos>					
+			<size>50,25</size>
+			<label>-</label>
+		</object>		
+	</object>
+</resource>
